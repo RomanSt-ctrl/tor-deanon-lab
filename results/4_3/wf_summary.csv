@@ -1,0 +1,11 @@
+experiment,model,accuracy,std
+closed-world 5-fold,k-FP + Random Forest,0.9215,0.0112
+closed-world 5-fold,CUMUL + SVM (RBF),0.8994,0.0076
+closed-world leave-one-VM-out,k-FP + Random Forest,0.8218,0.1842
+closed-world leave-one-VM-out,CUMUL + SVM (RBF),0.8998,0.0169
+learning curve n_train=5,k-FP + Random Forest,0.7068,0.0215
+learning curve n_train=10,k-FP + Random Forest,0.7923,0.0291
+learning curve n_train=20,k-FP + Random Forest,0.8393,0.0199
+learning curve n_train=40,k-FP + Random Forest,0.8925,0.0143
+learning curve n_train=60,k-FP + Random Forest,0.9136,0.0164
+"open-world (best F1, threshold 0.25)",k-FP + Random Forest,"precision 0.912, recall 0.907, FPR 0.069",
